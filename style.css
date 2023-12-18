@@ -1,5 +1,5 @@
 body {
-    height: 100vh; 
+    
     margin: 0;
 }
 
@@ -111,14 +111,14 @@ button {
     
 }
 
-.top {
+.two .top {
     margin: 50px 0;
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
 }
 
-.bottom {
+.two .bottom {
     margin-bottom: 100px;
     display: flex;
     gap: 200px;
@@ -146,6 +146,56 @@ button {
     font-size: 18px;
 }
 
+.three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 140px 480px;
+    background-color: #e5e7eb;
+}
 
 
+.three .top {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
 
+.three .bottom {
+    align-self: flex-end;
+    font-size: 24px;
+    
+    font-weight: bolder;
+}
+
+.four {
+    padding: 140px 480px;
+    
+    
+}
+
+.four .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    background-color: #3882F6;
+    border-radius: 12px;
+}
+
+.four .top {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.four .bottom {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.content button {
+    border: solid white;
+
+
+}
